@@ -300,7 +300,7 @@ static NSString * AFQueryByAppendingParameters(NSString *query, NSDictionary *pa
 
 #pragma mark -
 
-static NSUInteger const kAFPaginationDefaultPage = 1;
+static NSUInteger const kAFPaginationDefaultPage = 0;
 static NSUInteger const kAFPaginationDefaultPerPage = 20;
 
 @interface AFPageAndPerPagePaginator ()
